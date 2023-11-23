@@ -1,0 +1,12 @@
+7) FOR
+
+  DECLARE
+  ANS NUMBER(4);
+  BEGIN
+  ANS:=5;
+  FOR NUM IN 1..10 LOOP;
+  DBMS_OUTPUT.PUT_LINE('5X'||NUM||'='||ANS);
+  ANS:=ANS+5;
+  END LOOP;
+  END;
+  /
